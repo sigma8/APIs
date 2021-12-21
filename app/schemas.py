@@ -42,3 +42,7 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     id: Optional[str] = None
+
+class Like(BaseModel):
+    post_id: int
+    dir: bool
